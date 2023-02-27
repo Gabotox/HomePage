@@ -1,8 +1,8 @@
 //DEclaración de variables
-let nav = document.getElementById('nav_respo');
+let nav = document.getElementById('navContacto');
 let mostrarlo = document.getElementById('mostrarlo');
 let quitarlo = document.getElementById('ocultarlo');
-let items = document.querySelectorAll('.link');
+let items = document.querySelectorAll('.item');
 
 //Agregar los eventos de mostrar y ocultar el menú al hacer click en las bars
 mostrarlo.addEventListener('click', mostrar);
